@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="chromeTest">
+    <classes>
+      <class name="testNGExecution.SelectTest"/>
+      <parameter name="Browser" value="Chrome"></parameter>
+      <parameter name="Url" value="http://desktop-gq18f8q/login.do
+  "></parameter>
+      <parameter name="Username" value="admin"></parameter>
+      <parameter name="Password" value="manager"></parameter>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="firefoxTest">
+    <classes>
+      <class name="testNGExecution.SelectTest"/>
+      <parameter name="Browser" value="Firefox"></parameter>
+      <parameter name="Url" value="http://desktop-gq18f8q/login.do
+  "></parameter>
+      <parameter name="Username" value="admin"></parameter>
+      <parameter name="Password" value="manager"></parameter>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
